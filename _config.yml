@@ -9,7 +9,7 @@ plugins:
 title: "Your Site Title"
 description: "Short one-line description"
 baseurl: "" # leave empty unless your site is served from a subpath
-url: "https://<your-github-username>.github.io" # update
+url: "https://truedevopsmk-lab.github.io/" # update
 
 
 author:
