@@ -1,0 +1,47 @@
+# _config.yml
+remote_theme: "daattali/beautiful-jekyll"
+plugins:
+- jekyll-remote-theme
+- jekyll-feed
+
+
+# Basic site info
+title: "Your Site Title"
+description: "Short one-line description"
+baseurl: "" # leave empty unless your site is served from a subpath
+url: "https://<your-github-username>.github.io" # update
+
+
+author:
+name: "Muthu"
+email: "your-email@example.com"
+
+
+# social links
+github_username: "your-github-username"
+twitter_username: "your-twitter"
+
+
+# show or hide sections
+show_pages: true
+show_excerpt: true
+show_post_date: true
+
+
+# navigation (theme will auto-show pages; you can add custom nav later)
+
+
+# optional Google Analytics
+# google_analytics: "UA-XXXXXX-X"
+
+
+# Build settings
+markdown: kramdown
+
+
+defaults:
+- scope:
+path: ""
+type: "posts"
+values:
+layout: "post"
